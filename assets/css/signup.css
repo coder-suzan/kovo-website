@@ -1,0 +1,81 @@
+.smallTxt{
+    font-size: 14px;
+}
+
+.error{
+    margin: 0;
+}
+
+#signupForm label.error {
+    color: #e74c3c;;
+    margin-left: 10px;
+    width: auto;
+    display: block;
+    text-align: right;
+}
+
+#signupForm input.error {
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+}
+
+#signupForm input::placeholder .error {
+    color: #e74c3c;
+}
+
+
+.customForm{
+    margin-bottom: -10px;
+}
+
+.customForm label{
+    color:#777;
+}
+ 
+.customForm input{
+    background-color: transparent;
+    border: 2px solid #73737366;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;   
+}
+
+.customForm input:focus{
+    outline: 0;
+    border: 2px solid rgb(9, 211, 216);
+}
+
+.iconFix{
+    position: relative;
+}
+
+
+#firsTtoggle, #secondToggle{
+    background-image: url('../images/open-eye.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -35px;
+    right: -88%;
+    width: 23px;
+    height: 23px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+#firsTtoggle.firstHide{
+    background-image: url('../images/close-eye.png');
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+}
+
+#secondToggle.secondHide{
+    background-image: url('../images/close-eye.png');
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+}

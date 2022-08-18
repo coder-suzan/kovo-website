@@ -1,0 +1,95 @@
+:root{
+    --succes-color: rgb(9, 211, 216);
+    --error-color: #e74c3c;
+}
+
+.smallTxt{
+    font-size: 14px;
+}
+
+.iconWithTxt{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.iconWithTxt p{
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+  }
+  
+
+.iconWithTxt div{
+    padding-bottom: 8px;
+}
+
+.iconWithTxt svg{
+    width: 25px;
+    color: rgb(9, 211, 216);
+}
+
+#applyForm label.error {
+    color: #e74c3c;
+    font-size: 14px;
+    width: auto;
+    display: block;
+    text-align: right;
+}
+
+#applyForm input.error {
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+}
+
+#applyForm .customSelect.error {
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+}
+
+#applyForm input::placeholder .error {
+    color: #e74c3c;
+}
+
+
+.customForm{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.customForm label{
+    color:#777;
+    display: block;
+    margin: 0;
+}
+ 
+.customForm input, .customSelect{
+    background-color: transparent;
+    border: 2px solid #73737366;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;   
+}
+
+.customForm input:focus, .customSelect:focus{
+    outline: 0;
+    border: 2px solid rgb(9, 211, 216);
+
+}
+
+.customForm span{
+    font-size: 14px;
+}
+
+
+.checkboxFix{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.checkboxFix input{
+    width: auto; 
+}
